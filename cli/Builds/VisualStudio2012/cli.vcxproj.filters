@@ -8,6 +8,15 @@
     <Filter Include="cli\Source">
       <UniqueIdentifier>{4297D67F-F119-E648-56E8-4E6B90EC0E98}</UniqueIdentifier>
     </Filter>
+    <Filter Include="cli\Source\dependencies">
+      <UniqueIdentifier>{23929601-9912-34AA-CC4A-12EA7EE4E4B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cli\Source\dependencies\kiss_fft130">
+      <UniqueIdentifier>{26373450-1A23-7DD1-CFDF-1EEE92474254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cli\Source\auxilliary">
+      <UniqueIdentifier>{5EBCD9A5-72AD-CFCD-FDF8-CC18A74C3EED}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Juce Modules">
       <UniqueIdentifier>{422C46B7-0467-2DB0-BF3C-16DFCAFD69AC}</UniqueIdentifier>
     </Filter>
@@ -295,6 +304,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\dependencies\kiss_fft130\kiss_fft.c">
+      <Filter>cli\Source\dependencies\kiss_fft130</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\dependencies\kiss_fft130\kiss_fftr.c">
+      <Filter>cli\Source\dependencies\kiss_fft130</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\auxilliary\audio_util.cpp">
+      <Filter>cli\Source\auxilliary</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\auxilliary\juce_file_io.cpp">
+      <Filter>cli\Source\auxilliary</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\auxilliary\logger.cpp">
+      <Filter>cli\Source\auxilliary</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Main.cpp">
       <Filter>cli\Source</Filter>
     </ClCompile>
@@ -1494,6 +1518,27 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Source\dependencies\kiss_fft130\_kiss_fft_guts.h">
+      <Filter>cli\Source\dependencies\kiss_fft130</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\dependencies\kiss_fft130\kiss_fft.h">
+      <Filter>cli\Source\dependencies\kiss_fft130</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\dependencies\kiss_fft130\kiss_fftr.h">
+      <Filter>cli\Source\dependencies\kiss_fft130</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\dependencies\kiss_fft130\kissfft.hh">
+      <Filter>cli\Source\dependencies\kiss_fft130</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\auxilliary\audio_util.h">
+      <Filter>cli\Source\auxilliary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\auxilliary\juce_file_io.h">
+      <Filter>cli\Source\auxilliary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\auxilliary\logger.h">
+      <Filter>cli\Source\auxilliary</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\JuceLibraryCode\modules\juce_audio_basics\buffers\juce_AudioDataConverters.h">
       <Filter>Juce Modules\juce_audio_basics\buffers</Filter>
     </ClInclude>

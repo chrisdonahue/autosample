@@ -5,6 +5,26 @@
               jucerVersion="3.1.0">
   <MAINGROUP id="RAdOx5" name="cli">
     <GROUP id="{12226E7B-5067-921E-FC72-83E34EAF5C62}" name="Source">
+      <GROUP id="{8135EF0F-3FD2-3FBB-AE05-EA9D084A7239}" name="dependencies">
+        <GROUP id="{5CA5C839-4BED-2B04-2B4F-456E66A52616}" name="kiss_fft130">
+          <FILE id="r95ycC" name="_kiss_fft_guts.h" compile="0" resource="0"
+                file="Source/dependencies/kiss_fft130/_kiss_fft_guts.h"/>
+          <FILE id="lpBMyx" name="kiss_fft.c" compile="1" resource="0" file="Source/dependencies/kiss_fft130/kiss_fft.c"/>
+          <FILE id="fr17dA" name="kiss_fft.h" compile="0" resource="0" file="Source/dependencies/kiss_fft130/kiss_fft.h"/>
+          <FILE id="nH5lR4" name="kiss_fftr.c" compile="1" resource="0" file="Source/dependencies/kiss_fft130/kiss_fftr.c"/>
+          <FILE id="wYsvrh" name="kiss_fftr.h" compile="0" resource="0" file="Source/dependencies/kiss_fft130/kiss_fftr.h"/>
+          <FILE id="vUrD7S" name="kissfft.hh" compile="0" resource="0" file="Source/dependencies/kiss_fft130/kissfft.hh"/>
+        </GROUP>
+      </GROUP>
+      <GROUP id="{F429B502-6918-CEC6-A065-94CC8340DE2B}" name="auxilliary">
+        <FILE id="Z7LWeA" name="audio_util.cpp" compile="1" resource="0" file="Source/auxilliary/audio_util.cpp"/>
+        <FILE id="wij66w" name="audio_util.h" compile="0" resource="0" file="Source/auxilliary/audio_util.h"/>
+        <FILE id="p0l6Vt" name="juce_file_io.cpp" compile="1" resource="0"
+              file="Source/auxilliary/juce_file_io.cpp"/>
+        <FILE id="a2OUG5" name="juce_file_io.h" compile="0" resource="0" file="Source/auxilliary/juce_file_io.h"/>
+        <FILE id="LMz7xK" name="logger.cpp" compile="1" resource="0" file="Source/auxilliary/logger.cpp"/>
+        <FILE id="rfQKUN" name="logger.h" compile="0" resource="0" file="Source/auxilliary/logger.h"/>
+      </GROUP>
       <FILE id="LaTel7" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
     </GROUP>
   </MAINGROUP>
