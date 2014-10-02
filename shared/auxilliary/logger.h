@@ -55,8 +55,6 @@ namespace aux{
 		aux::log_params* debug_params;
 		aux::log_params* error_params;
 		unsigned log_precision;
-		unsigned save_net_precision;
-		unsigned print_net_precision;
 		bool verbose_to_log;
 	};
 

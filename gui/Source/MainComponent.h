@@ -11,6 +11,8 @@
 
 #include "../JuceLibraryCode/JuceHeader.h"
 
+#include "waveform_component.h"
+
 
 //==============================================================================
 /*
@@ -28,6 +30,8 @@ public:
     void resized();
 
 private:
+	ScopedPointer<waveform_component> waveform_display;
+
     //==============================================================================
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainContentComponent)
 };
